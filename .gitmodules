@@ -1,0 +1,3 @@
+[submodule "perseus"]
+	path = perseus
+	url = https://github.com/PerseusDL/lexica
