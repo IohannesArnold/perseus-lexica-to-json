@@ -7,6 +7,9 @@ This repo contains scripts to convert the XML versions of these works into JSON.
 JSON will not be able to act as direct digital representations of the print dictionaries as well as XML can, due to limitations in the JSON format.
 Instead, the point of these scripts is to enable the production of JSON versions that reuse the information contained in the dictionaries in a hacker-friendly way, even if the data ends up as a bit of an exquisite corpse.
 
+## Already compiled JSON
+A JSON version of Lewis and Short already compiled by the scripts here is available at https://github.com/IohannesArnold/lewis-short-json
+
 ## Get Started
 (All of these instructions are only suggestions; if you want to use these scripts in other ways, go ahead.)
 

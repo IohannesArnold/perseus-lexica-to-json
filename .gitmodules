@@ -1,3 +1,6 @@
 [submodule "perseus"]
 	path = perseus
 	url = https://github.com/PerseusDL/lexica
+[submodule "lsjson"]
+	path = lsjson
+	url = git@github.com:IohannesArnold/lewis-short-json.git
