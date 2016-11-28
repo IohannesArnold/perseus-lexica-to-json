@@ -7,14 +7,12 @@ for arg in sys.argv[1:]:
     xml_data = etree.parse(arg)
     json_out = []
     for entry in xml_data.xpath('/div0/entryFree'):
-        
-        # Get the <sense> elements for the main part of the dictionary entry
-        entries = []
-        
+
         # 'key' and 'type' are easy metadata to grab
         key = entry.get("key")
         entry_type = entry.get("type")
         
+        # Get the <sense> elements for the main part of the dictionary entry
         senses = []
         for sense in entry.xpath('sense'):
             #etree.strip_attributes(sense, 'n', 'id')
