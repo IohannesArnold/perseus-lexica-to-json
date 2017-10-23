@@ -16,9 +16,9 @@ A JSON version of Lewis and Short already compiled by the scripts here is availa
 1. Pull the Perseus Database with `git submodule update --recursive --init`.
 2. Make sure you have the Python packages in `requirements.txt` installed, either globally or in a virtualenv.
 3. Change to the `./lat` directory.
-4. Run `sed -f macrons.txt > ls.with.macrons.xml`.
+4. Run `sed -f macrons.txt lat.ls.perseus-eng1.xml > ls.with.macrons.xml`.
 5. Run `./alphabetize.py ls.with.macrons.xml`/
-6. Run `./tojson.py ls_*`.
+6. Run `./tojson.py ls_*.xml`.
 
 
 ## Credits
